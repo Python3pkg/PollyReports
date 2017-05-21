@@ -109,7 +109,7 @@ canvas = Canvas("test.pdf", (72*11, 72*8.5))
 rpt.generate(canvas)
 canvas.save()
 
-print "\nDone."
+print("\nDone.")
 
 
 # end of file.

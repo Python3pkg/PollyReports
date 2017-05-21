@@ -56,5 +56,5 @@ sys.stdout.write("Report Starting...\nPage ")
 canvas = Canvas("sample07.pdf", (72*11, 72*8.5))
 rpt.generate(canvas)
 canvas.save()
-print "\nDone."
+print("\nDone.")
 
